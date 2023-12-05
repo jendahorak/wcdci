@@ -27,9 +27,11 @@ jobs:
         env:
           WLE_CREDENTIALS: ${{ secrets.WLE_CREDENTIALS }}
 
-      - name: Gzip
+      - name: List files in deploy directory
+        run: ls -R deploy
 
-        run: gzip -k deploy/**/*.*
+      - name: Gzip
+        run: find deploy -type f -exec gzip -k {} \;
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
