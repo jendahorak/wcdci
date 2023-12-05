@@ -2,6 +2,7 @@
 
 - test change
 - test new credentials
+- githubpages allow
 
 # Overview
 
