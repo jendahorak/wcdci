@@ -2038,22 +2038,22 @@
                 "name": "mapa_hand",
                 "file": "assets\\my-models\\hand_map.glb"
             },
-            "parent": "250",
+            "parent": "280",
             "translation": [
-                0.0916206,
-                0.7050772,
-                0.0105167
+                0.0,
+                0.0001925,
+                0.0
             ],
             "rotation": [
-                -0.005737,
-                0.0,
-                0.0,
-                0.9999835
+                -7.54979225803254e-8,
+                1.0,
+                -7.549789415861596e-8,
+                0.0
             ],
             "scaling": [
-                0.953458,
-                0.953458,
-                0.953458
+                0.304163,
+                0.3041526,
+                0.3041615
             ],
             "components": [
                 null,
@@ -2074,13 +2074,15 @@
                         "trigger": false,
                         "allowSimulation": true,
                         "gravity": true
-                    }
+                    },
+                    "active": false
                 },
                 {
                     "type": "pp-grabbable",
                     "pp-grabbable": {
                         "_myParentOnRelease": "Scene"
-                    }
+                    },
+                    "active": false
                 }
             ]
         },
@@ -2111,6 +2113,79 @@
                 0.5254557,
                 0.5244025,
                 4.1952204
+            ]
+        },
+        "280": {
+            "name": "mapa_hand_colider",
+            "parent": "250",
+            "components": [
+                {
+                    "type": "physx",
+                    "physx": {
+                        "shape": "box",
+                        "kinematic": true,
+                        "groups": 4,
+                        "block": 7,
+                        "box": {
+                            "extents": [
+                                0.15,
+                                0.0099999,
+                                0.15
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "pp-grabbable",
+                    "pp-grabbable": {
+                        "_myParentOnRelease": "Scene"
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.6765715,
+                0.2126293
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "281": {
+            "name": "Text",
+            "parent": "266",
+            "components": [
+                {
+                    "type": "text",
+                    "text": {
+                        "text": "Pickup the map here.",
+                        "material": "DefaultFontMaterial"
+                    }
+                }
+            ],
+            "translation": [
+                -0.025083,
+                0.770836,
+                0.4677078
+            ],
+            "rotation": [
+                -0.000985,
+                0.9567658,
+                0.2908396,
+                0.0032405
+            ],
+            "scaling": [
+                1.0000003,
+                0.9999956,
+                1.0000016
             ]
         }
     },
@@ -2309,7 +2384,13 @@
                 "file": "default"
             },
             "Text": {
-                "font": "147"
+                "font": "147",
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ]
             }
         },
         "31": {
@@ -2585,6 +2666,9 @@
             "link": {
                 "name": "thematic_map_textured",
                 "file": "assets\\my-models\\hand_map.glb"
+            },
+            "Phong": {
+                "diffuseTexture": "269"
             }
         },
         "270": {
@@ -2985,7 +3069,8 @@
             "link": {
                 "name": "texture_0",
                 "file": "assets\\my-models\\hand_map.glb"
-            }
+            },
+            "image": null
         },
         "269": {
             "link": {
