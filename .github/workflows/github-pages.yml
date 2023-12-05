@@ -31,8 +31,7 @@ jobs:
         run: ls -R deploy
 
       - name: Gzip
-
-        run: gzip -k deploy/**/*.*
+        run: find deploy -type f -exec gzip -k {} \;
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
