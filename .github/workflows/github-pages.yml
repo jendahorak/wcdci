@@ -33,8 +33,11 @@ jobs:
       - name: Gzip
         run: find deploy -type f -exec gzip -k {} \;
 
+      - name: List directory contents
+        run: ls -la
+
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-pages-artifact@v1
         with:
           name: github-pages # This should match the `artifact_name` in the `actions/deploy-pages@v2` step
           path: ./public
