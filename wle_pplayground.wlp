@@ -3005,7 +3005,8 @@
             "link": {
                 "name": "lokace_roof_types_figma_v3_2048_reresized",
                 "file": "assets\\my-models\\hand_map_backface_test_2048.glb"
-            }
+            },
+            "compression": "uastc"
         }
     },
     "files": {
