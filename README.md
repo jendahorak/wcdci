@@ -1,3 +1,7 @@
+# Mine change
+
+- test change
+
 # Overview
 
 A collection of playground template projects for the [Wonderland Engine](https://wonderlandengine.com/).
@@ -11,7 +15,7 @@ A collection of assets that can be useful while working with the Wonderland Engi
 # License
 
 You are free to use this in your projects, just remember to credit it somewhere, if possible!
-  
+
 # Credits
 
 - [Meta Quest 1 Gamepads Low Poly](https://github.com/SignorPipo/wle-ppefault/blob/main/wle_ppefault/wle_ppefault/assets/models/pp/meta_quest_1_gamepads_credits_Jezza3D.fbx) by [Jezza3D](https://sketchfab.com/Jezza3D)
@@ -26,11 +30,12 @@ You are free to use this in your projects, just remember to credit it somewhere,
 ## Playgrounds Versions
 
 Every playground template usually comes in two versions:
+
 - standard
-  * the PP library is included as an `npm` package
+  - the PP library is included as an `npm` package
 - unbundled
-  * the PP library is not included as an `npm` package, but as files in the project
-  * can be useful if u plan to edit the PP library to adjust them to your need
+  - the PP library is not included as an `npm` package, but as files in the project
+  - can be useful if u plan to edit the PP library to adjust them to your need
 
 ## PPlayground
 
@@ -41,12 +46,14 @@ Every playground template usually comes in two versions:
 The main playground.
 
 Some of the PP features u will find in this playground are:
+
 - ppefault setup
 - player locomotion
 - grab & throw
 - virtual gamepad
 
 Some of the custom features u will find in this playground are:
+
 - background music
 - sfx for the grab & throw and other interactions
 - particles
@@ -59,5 +66,6 @@ This is also true for every custom scripts, which can be found in the `playgroun
 ### Downloads
 
 You can download this template through the following links:
-  * [`wle_pplayground`](https://github.com/SignorPipo/wle-pplaygrounds/releases/latest/download/wle_pplayground.zip)
-  * [`wle_pplayground_unbundled`](https://github.com/SignorPipo/wle-pplaygrounds/releases/latest/download/wle_pplayground_unbundled.zip)
+
+- [`wle_pplayground`](https://github.com/SignorPipo/wle-pplaygrounds/releases/latest/download/wle_pplayground.zip)
+- [`wle_pplayground_unbundled`](https://github.com/SignorPipo/wle-pplaygrounds/releases/latest/download/wle_pplayground_unbundled.zip)
