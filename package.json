@@ -1,0 +1,36 @@
+{
+    "name": "wle-pplayground",
+    "version": "0.2.5",
+    "author": "Pipo",
+    "description": "Playground template project for the Wonderland Engine",
+    "homepage": "https://github.com/SignorPipo/wle-pplaygrounds",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SignorPipo/wle-pplaygrounds.git"
+    },
+    "license": "ISC",
+    "files": [
+        "assets",
+        "static",
+        "js",
+        "wle_pplayground.wlp"
+    ],
+    "keywords": [
+        "pp",
+        "pipo",
+        "wonderland",
+        "wonderlandengine",
+        "wonderland-engine",
+        "wonderland engine",
+        "wle",
+        "webxr"
+    ],
+    "type": "module",
+    "dependencies": {
+        "@wonderlandengine/api": "^1.1.3",
+        "@wonderlandengine/components": "^1.0.6",
+        "gl-matrix": "^3.4.3",
+        "howler": "^2.2.4",
+        "wle-pp": "^0.5.2"
+    }
+}
