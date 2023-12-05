@@ -37,10 +37,10 @@ jobs:
         run: ls -la
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           name: github-pages # This should match the `artifact_name` in the `actions/deploy-pages@v2` step
-          path: ./public
+          path: ./deploy
 
   deploy-pages:
     needs: package
