@@ -2187,6 +2187,150 @@
                 0.9999956,
                 1.0000016
             ]
+        },
+        "293": {
+            "link": {
+                "name": "buildings_scaled",
+                "file": "assets\\my-models\\thematic_1.glb"
+            },
+            "parent": "297",
+            "translation": [
+                3.7857244,
+                2.2623858,
+                4.3998551
+            ],
+            "rotation": [
+                0.0106183,
+                -0.3908961,
+                0.0045097,
+                0.9203625
+            ],
+            "scaling": [
+                1.4251966,
+                1.4251974,
+                1.4251972
+            ]
+        },
+        "294": {
+            "link": {
+                "name": "legenda_strecha_kod",
+                "file": "assets\\my-models\\thematic_1.glb"
+            },
+            "parent": "297",
+            "translation": [
+                -2.963576,
+                1.3343591,
+                3.4023768
+            ],
+            "rotation": [
+                -0.191287,
+                -0.3823859,
+                -0.0812434,
+                0.9003276
+            ],
+            "scaling": [
+                1.4251955,
+                1.4251958,
+                1.4251958
+            ]
+        },
+        "295": {
+            "link": {
+                "name": "canvas",
+                "file": "assets\\my-models\\thematic_1.glb"
+            },
+            "parent": "297",
+            "translation": [
+                0.0626835,
+                0.1690028,
+                -0.1546735
+            ],
+            "rotation": [
+                0.0168959,
+                0.0,
+                0.0,
+                0.9998572
+            ],
+            "scaling": [
+                1.0,
+                0.9999999,
+                0.9999999
+            ],
+            "components": [
+                {
+                    "active": false
+                },
+                {
+                    "mesh": {
+                        "material": "32"
+                    },
+                    "active": false
+                }
+            ]
+        },
+        "297": {
+            "name": "thematic",
+            "translation": [
+                -4.7813405,
+                0.0,
+                -8.9773826
+            ],
+            "rotation": [
+                -8.498363257558594e-8,
+                0.7339185,
+                6.561743504107653e-8,
+                0.6792375
+            ],
+            "scaling": [
+                0.29,
+                0.29,
+                0.29
+            ]
+        },
+        "298": {
+            "name": "Empty",
+            "translation": [
+                -4.2432413,
+                -0.0650782,
+                -3.3668174
+            ],
+            "rotation": [
+                0.0,
+                0.9492431,
+                -1.2591705456088675e-8,
+                0.3145433
+            ],
+            "scaling": [
+                0.5226196,
+                0.5226175,
+                0.5226196
+            ]
+        },
+        "311": {
+            "link": {
+                "name": "canvas.001",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            },
+            "parent": "298",
+            "components": [
+                {
+                    "active": false
+                }
+            ]
+        },
+        "312": {
+            "link": {
+                "name": "budovy_atlas.001",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            },
+            "parent": "298"
+        },
+        "313": {
+            "link": {
+                "name": "terrain_textured.002",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            },
+            "parent": "298"
         }
     },
     "meshes": {
@@ -2374,6 +2518,60 @@
             "link": {
                 "name": "mapa_hand",
                 "file": "assets\\my-models\\hand_map_backface_test_2048.glb"
+            }
+        },
+        "288": {
+            "link": {
+                "name": "buildigns_scaled",
+                "file": "assets\\my-models\\thematic_1.glb"
+            }
+        },
+        "289": {
+            "link": {
+                "name": "buildigns_scaled.0",
+                "file": "assets\\my-models\\thematic_1.glb"
+            }
+        },
+        "290": {
+            "link": {
+                "name": "legenda_strecha_kod",
+                "file": "assets\\my-models\\thematic_1.glb"
+            }
+        },
+        "291": {
+            "link": {
+                "name": "canvas",
+                "file": "assets\\my-models\\thematic_1.glb"
+            }
+        },
+        "292": {
+            "link": {
+                "name": "canvas.0",
+                "file": "assets\\my-models\\thematic_1.glb"
+            }
+        },
+        "307": {
+            "link": {
+                "name": "canvas.001",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            }
+        },
+        "308": {
+            "link": {
+                "name": "canvas.001.0",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            }
+        },
+        "309": {
+            "link": {
+                "name": "budovy.002",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            }
+        },
+        "310": {
+            "link": {
+                "name": "terrain_textured.002",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
             }
         }
     },
@@ -2677,6 +2875,57 @@
                 "file": "assets\\my-models\\hand_map_backface_test_2048.glb"
             },
             "pipeline": "14"
+        },
+        "284": {
+            "link": {
+                "name": "TextureAtlasColors",
+                "file": "assets\\my-models\\thematic_1.glb"
+            },
+            "pipeline": "78"
+        },
+        "285": {
+            "link": {
+                "name": "texture_less_terrain",
+                "file": "assets\\my-models\\thematic_1.glb"
+            }
+        },
+        "286": {
+            "link": {
+                "name": "canvas_mat",
+                "file": "assets\\my-models\\thematic_1.glb"
+            },
+            "pipeline": "13"
+        },
+        "287": {
+            "link": {
+                "name": "plane_mat",
+                "file": "assets\\my-models\\thematic_1.glb"
+            }
+        },
+        "303": {
+            "link": {
+                "name": "canvas_mat",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            }
+        },
+        "304": {
+            "link": {
+                "name": "plane_mat",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            }
+        },
+        "305": {
+            "link": {
+                "name": "topo_texture_atlas",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            },
+            "pipeline": "78"
+        },
+        "306": {
+            "link": {
+                "name": "ortofoto",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            }
         }
     },
     "shaders": {
@@ -3012,8 +3261,10 @@
                 "file": "default"
             },
             "features": {
-                "ALPHA_MASKED": true
-            }
+                "ALPHA_MASKED": true,
+                "NORMAL_MAPPING": false
+            },
+            "doubleSided": true
         },
         "82": {
             "link": {
@@ -3077,6 +3328,24 @@
                 "name": "texture_0",
                 "file": "assets\\my-models\\hand_map_backface_test_2048.glb"
             }
+        },
+        "283": {
+            "link": {
+                "name": "texture_0",
+                "file": "assets\\my-models\\thematic_1.glb"
+            }
+        },
+        "301": {
+            "link": {
+                "name": "texture_0",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            }
+        },
+        "302": {
+            "link": {
+                "name": "texture_1",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            }
         }
     },
     "images": {
@@ -3084,7 +3353,8 @@
             "link": {
                 "name": "lokace_roof_types_figma_v2",
                 "file": "assets\\my-models\\hand_map.glb"
-            }
+            },
+            "compression": "uastc"
         },
         "268": {
             "link": {
@@ -3092,6 +3362,24 @@
                 "file": "assets\\my-models\\hand_map_backface_test_2048.glb"
             },
             "compression": "uastc"
+        },
+        "282": {
+            "link": {
+                "name": "texture_atlas_modified",
+                "file": "assets\\my-models\\thematic_1.glb"
+            }
+        },
+        "299": {
+            "link": {
+                "name": "texture_atlas_topo",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            }
+        },
+        "300": {
+            "link": {
+                "name": "orotofot_2048",
+                "file": "assets\\my-models\\topo1_stromy_less.glb"
+            }
         }
     },
     "files": {
@@ -3117,6 +3405,14 @@
         },
         "273": {
             "fileName": "assets/my-models/hand_map_backface_test_2048.glb",
+            "importerName": ""
+        },
+        "296": {
+            "fileName": "assets/my-models/thematic_1.glb",
+            "importerName": ""
+        },
+        "314": {
+            "fileName": "assets/my-models/topo1_stromy_less.glb",
             "importerName": ""
         }
     },
