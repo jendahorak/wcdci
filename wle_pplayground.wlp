@@ -2331,6 +2331,46 @@
                 "file": "assets\\my-models\\topo1_stromy_less.glb"
             },
             "parent": "298"
+        },
+        "315": {
+            "name": "topo_stromy",
+            "translation": [
+                3.6739056,
+                0.9174531,
+                -7.6571416
+            ],
+            "rotation": [
+                -8.263838253697031e-7,
+                -0.8438727,
+                -0.0000015,
+                0.5365433
+            ],
+            "scaling": [
+                0.0629921,
+                0.062992,
+                0.0629921
+            ]
+        },
+        "330": {
+            "link": {
+                "name": "terrain.001",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            },
+            "parent": "315"
+        },
+        "331": {
+            "link": {
+                "name": "mesh_vodorovna_strecha.001",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            },
+            "parent": "315"
+        },
+        "332": {
+            "link": {
+                "name": "trees.001",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            },
+            "parent": "315"
         }
     },
     "meshes": {
@@ -2572,6 +2612,42 @@
             "link": {
                 "name": "terrain_textured.002",
                 "file": "assets\\my-models\\topo1_stromy_less.glb"
+            }
+        },
+        "324": {
+            "link": {
+                "name": "terrain.001",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            }
+        },
+        "325": {
+            "link": {
+                "name": "mesh_vodorovna_strecha.001",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            }
+        },
+        "326": {
+            "link": {
+                "name": "mesh_vodorovna_strecha.001.0",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            }
+        },
+        "327": {
+            "link": {
+                "name": "mesh_vodorovna_strecha.001.1",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            }
+        },
+        "328": {
+            "link": {
+                "name": "trees.001",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            }
+        },
+        "329": {
+            "link": {
+                "name": "trees.001.0",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
             }
         }
     },
@@ -2925,6 +3001,42 @@
             "link": {
                 "name": "ortofoto",
                 "file": "assets\\my-models\\topo1_stromy_less.glb"
+            }
+        },
+        "318": {
+            "link": {
+                "name": "terrain-switched",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            }
+        },
+        "319": {
+            "link": {
+                "name": "vodorovna_strecha",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            }
+        },
+        "320": {
+            "link": {
+                "name": "svisla_stena",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            }
+        },
+        "321": {
+            "link": {
+                "name": "sikma_strecha",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            }
+        },
+        "322": {
+            "link": {
+                "name": "crown_ copy",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            }
+        },
+        "323": {
+            "link": {
+                "name": "trunk_copy",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
             }
         }
     },
@@ -3346,6 +3458,12 @@
                 "name": "texture_1",
                 "file": "assets\\my-models\\topo1_stromy_less.glb"
             }
+        },
+        "317": {
+            "link": {
+                "name": "texture_0",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            }
         }
     },
     "images": {
@@ -3380,6 +3498,12 @@
                 "name": "orotofot_2048",
                 "file": "assets\\my-models\\topo1_stromy_less.glb"
             }
+        },
+        "316": {
+            "link": {
+                "name": "WRTO24",
+                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+            }
         }
     },
     "files": {
@@ -3413,6 +3537,10 @@
         },
         "314": {
             "fileName": "assets/my-models/topo1_stromy_less.glb",
+            "importerName": ""
+        },
+        "333": {
+            "fileName": "assets/my-models/topo1_stromy_optimized_uncompressed.glb",
             "importerName": ""
         }
     },
