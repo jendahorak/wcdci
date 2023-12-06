@@ -2288,7 +2288,7 @@
             ]
         },
         "298": {
-            "name": "Empty",
+            "name": "thematic1",
             "translation": [
                 -4.2432413,
                 -0.0650782,
@@ -2330,7 +2330,12 @@
                 "name": "terrain_textured.002",
                 "file": "assets\\my-models\\topo1_stromy_less.glb"
             },
-            "parent": "298"
+            "parent": "298",
+            "components": [
+                {
+                    "active": true
+                }
+            ]
         },
         "315": {
             "name": "topo_stromy",
@@ -2371,6 +2376,33 @@
                 "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
             },
             "parent": "315"
+        },
+        "334": {
+            "name": "Light",
+            "components": [
+                {
+                    "type": "light",
+                    "light": {
+                        "type": "spot"
+                    }
+                }
+            ],
+            "translation": [
+                0.7922656,
+                1.3713538,
+                -7.6911315
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.6282066,
+                0.7780465
+            ],
+            "scaling": [
+                0.9999985,
+                0.9999985,
+                1.0
+            ]
         }
     },
     "meshes": {
@@ -3497,13 +3529,15 @@
             "link": {
                 "name": "orotofot_2048",
                 "file": "assets\\my-models\\topo1_stromy_less.glb"
-            }
+            },
+            "compression": "uastc"
         },
         "316": {
             "link": {
                 "name": "WRTO24",
                 "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
-            }
+            },
+            "compression": "uastc"
         }
     },
     "files": {
