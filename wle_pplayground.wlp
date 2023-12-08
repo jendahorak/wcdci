@@ -146,24 +146,31 @@
                     "type": "light",
                     "light": {
                         "color": [
-                            0.3921568,
-                            0.329466,
-                            0.1384083
+                            0.5960783,
+                            0.3266262,
+                            0.2641445
                         ],
-                        "type": "sun"
-                    }
+                        "type": "sun",
+                        "intensity": 1.001
+                    },
+                    "active": true
                 }
             ],
             "translation": [
-                0.0,
-                20.0000514,
-                0.0
+                3.5336747,
+                22.9663982,
+                -6.9939584
             ],
             "rotation": [
-                -0.2156182,
-                0.0850898,
-                0.0188639,
-                0.9725804
+                -0.2156183,
+                0.0850897,
+                0.0188638,
+                0.9725803
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                0.9999999
             ]
         },
         "30": {
@@ -178,7 +185,8 @@
                             0.3921568,
                             0.3368116
                         ],
-                        "type": "sun"
+                        "type": "sun",
+                        "intensity": 1.0
                     }
                 }
             ],
@@ -1079,20 +1087,20 @@
                 }
             ],
             "translation": [
-                0.0,
+                1.1920928955078125e-7,
                 1.35,
-                -1.1000206
+                -1.0999999
             ],
             "rotation": [
                 0.0,
                 0.7071068,
                 0.0,
-                0.7071068
+                0.7071067
             ],
             "scaling": [
-                0.1,
+                0.0999999,
                 0.5,
-                1.0
+                0.9999996
             ]
         },
         "167": {
@@ -1116,233 +1124,6 @@
                 1.25,
                 2.0999999,
                 -1.0
-            ]
-        },
-        "186": {
-            "name": "Throw Target",
-            "parent": "150",
-            "translation": [
-                0.0,
-                3.5,
-                5.0
-            ],
-            "components": [
-                {
-                    "type": "target-hit-check"
-                },
-                {
-                    "type": "wave-movement"
-                },
-                {
-                    "type": "fun",
-                    "active": false
-                }
-            ]
-        },
-        "187": {
-            "name": "Visual",
-            "parent": "186"
-        },
-        "188": {
-            "name": "Piece",
-            "parent": "187",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "p1",
-                        "material": "148"
-                    }
-                },
-                {
-                    "type": "physx",
-                    "physx": {
-                        "shape": "box",
-                        "box": {
-                            "extents": [
-                                0.6499999,
-                                0.075,
-                                0.075
-                            ]
-                        },
-                        "groups": 2,
-                        "block": 5,
-                        "gravity": false,
-                        "kinematic": true
-                    }
-                }
-            ],
-            "translation": [
-                0.0,
-                -0.5749999,
-                0.0
-            ],
-            "scaling": [
-                0.6499999,
-                0.075,
-                0.075
-            ]
-        },
-        "189": {
-            "name": "Piece",
-            "parent": "187",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "p1",
-                        "material": "148"
-                    }
-                },
-                {
-                    "type": "physx",
-                    "physx": {
-                        "shape": "box",
-                        "box": {
-                            "extents": [
-                                0.6499999,
-                                0.075,
-                                0.075
-                            ]
-                        },
-                        "groups": 2,
-                        "block": 5,
-                        "gravity": false,
-                        "kinematic": true
-                    }
-                }
-            ],
-            "rotation": [
-                0.0,
-                0.0,
-                0.7071068,
-                0.7071067
-            ],
-            "translation": [
-                -0.5749999,
-                0.0,
-                0.0
-            ],
-            "scaling": [
-                0.6499999,
-                0.075,
-                0.075
-            ]
-        },
-        "191": {
-            "name": "Piece",
-            "parent": "187",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "p1",
-                        "material": "148"
-                    }
-                },
-                {
-                    "type": "physx",
-                    "physx": {
-                        "shape": "box",
-                        "box": {
-                            "extents": [
-                                0.6499999,
-                                0.075,
-                                0.075
-                            ]
-                        },
-                        "groups": 2,
-                        "block": 5,
-                        "gravity": false,
-                        "kinematic": true
-                    }
-                }
-            ],
-            "translation": [
-                0.0,
-                0.5749999,
-                0.0
-            ],
-            "scaling": [
-                0.6499999,
-                0.075,
-                0.075
-            ]
-        },
-        "192": {
-            "name": "Piece",
-            "parent": "187",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "p1",
-                        "material": "148"
-                    }
-                },
-                {
-                    "type": "physx",
-                    "physx": {
-                        "shape": "box",
-                        "box": {
-                            "extents": [
-                                0.6499999,
-                                0.075,
-                                0.075
-                            ]
-                        },
-                        "groups": 2,
-                        "block": 5,
-                        "gravity": false,
-                        "kinematic": true
-                    }
-                }
-            ],
-            "rotation": [
-                0.0,
-                0.0,
-                0.7071068,
-                0.7071067
-            ],
-            "translation": [
-                0.5749999,
-                0.0,
-                0.0
-            ],
-            "scaling": [
-                0.6499999,
-                0.075,
-                0.075
-            ]
-        },
-        "193": {
-            "name": "Target Hit Trigger",
-            "parent": "186",
-            "components": [
-                {
-                    "type": "physx",
-                    "physx": {
-                        "groups": 4,
-                        "block": 0,
-                        "gravity": false,
-                        "kinematic": true,
-                        "trigger": true,
-                        "allowSimulation": false,
-                        "shape": "box",
-                        "box": {
-                            "extents": [
-                                0.6,
-                                0.6,
-                                0.1
-                            ]
-                        }
-                    }
-                }
-            ],
-            "translation": [
-                0.0,
-                0.0,
-                0.25
             ]
         },
         "194": {
@@ -1866,7 +1647,23 @@
                 "name": "Wondermelon Pulp<Wondermelon",
                 "file": "assets\\models\\pp\\wondermelon.fbx"
             },
-            "parent": "220"
+            "parent": "220",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scaling": [
+                1.0,
+                1.0,
+                1.0
+            ]
         },
         "224": {
             "link": {
@@ -1947,7 +1744,8 @@
                     "mesh": {
                         "mesh": "p3",
                         "material": "148"
-                    }
+                    },
+                    "active": false
                 },
                 {
                     "type": "physx",
@@ -2337,71 +2135,160 @@
                 }
             ]
         },
-        "315": {
-            "name": "topo_stromy",
+        "335": {
+            "name": "thematic2",
             "translation": [
-                3.6739056,
-                0.9174531,
-                -7.6571416
+                3.7561345,
+                1.0250265,
+                -6.2272443
             ],
             "rotation": [
-                -8.263838253697031e-7,
-                -0.8438727,
-                -0.0000015,
-                0.5365433
+                0.0,
+                -0.5725625,
+                0.0,
+                0.819861
             ],
             "scaling": [
-                0.0629921,
-                0.062992,
-                0.0629921
+                0.9999994,
+                1.0,
+                0.9999994
             ]
         },
-        "330": {
+        "344": {
             "link": {
-                "name": "terrain.001",
-                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+                "name": "buildings",
+                "file": "assets\\my-models\\thematic\\tematicka_loc_1_baked_material_t.glb"
             },
-            "parent": "315"
+            "parent": "335",
+            "translation": [
+                9.5827808,
+                0.0,
+                7.7464742
+            ],
+            "rotation": [
+                0.0,
+                -0.7283048,
+                0.0,
+                0.6852532
+            ],
+            "scaling": [
+                0.0076264,
+                0.0076263,
+                0.0076264
+            ]
         },
-        "331": {
+        "345": {
             "link": {
-                "name": "mesh_vodorovna_strecha.001",
-                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
+                "name": "terrain_shaded",
+                "file": "assets\\my-models\\thematic\\tematicka_loc_1_baked_material_t.glb"
             },
-            "parent": "315"
+            "parent": "335",
+            "translation": [
+                9.5828056,
+                0.0,
+                7.7464857
+            ],
+            "rotation": [
+                0.0,
+                -0.7283048,
+                0.0,
+                0.6852532
+            ],
+            "scaling": [
+                1.5453019,
+                1.5453001,
+                1.5453019
+            ]
         },
-        "332": {
-            "link": {
-                "name": "trees.001",
-                "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
-            },
-            "parent": "315"
-        },
-        "334": {
+        "347": {
             "name": "Light",
+            "parent": "28",
             "components": [
                 {
                     "type": "light",
                     "light": {
-                        "type": "spot"
-                    }
+                        "shadows": false,
+                        "shadowRange": 10.0,
+                        "shadowTexelSize": 1.0,
+                        "color": [
+                            1.0,
+                            0.8672664,
+                            0.462745
+                        ]
+                    },
+                    "active": true
                 }
             ],
             "translation": [
-                0.7922656,
-                1.3713538,
-                -7.6911315
+                1.6041522,
+                1.5750498,
+                5.1319489
             ],
             "rotation": [
                 0.0,
                 0.0,
-                0.6282066,
-                0.7780465
+                0.0,
+                1.0
             ],
             "scaling": [
-                0.9999985,
-                0.9999985,
+                0.001,
+                1.0,
                 1.0
+            ]
+        },
+        "186": {
+            "name": "Throw Target",
+            "parent": "150",
+            "translation": [
+                0.0,
+                3.5,
+                5.0
+            ],
+            "components": [
+                {
+                    "type": "target-hit-check"
+                },
+                {
+                    "type": "wave-movement"
+                },
+                {
+                    "type": "fun",
+                    "active": false
+                }
+            ]
+        },
+        "187": {
+            "name": "Visual",
+            "parent": "186"
+        },
+        "193": {
+            "name": "Target Hit Trigger",
+            "parent": "186",
+            "components": [
+                {
+                    "type": "physx",
+                    "physx": {
+                        "groups": 4,
+                        "block": 0,
+                        "gravity": false,
+                        "kinematic": true,
+                        "trigger": true,
+                        "allowSimulation": false,
+                        "shape": "box",
+                        "box": {
+                            "extents": [
+                                0.6,
+                                0.6,
+                                0.1
+                            ]
+                        }
+                    }
+                }
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                0.25
             ]
         }
     },
@@ -2681,6 +2568,18 @@
                 "name": "trees.001.0",
                 "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
             }
+        },
+        "342": {
+            "link": {
+                "name": "buildings_mesh",
+                "file": "assets\\my-models\\thematic\\tematicka_loc_1_baked_material_t.glb"
+            }
+        },
+        "343": {
+            "link": {
+                "name": "terrain_mesh",
+                "file": "assets\\my-models\\thematic\\tematicka_loc_1_baked_material_t.glb"
+            }
         }
     },
     "materials": {
@@ -2801,9 +2700,9 @@
             "name": "Gold",
             "Phong": {
                 "diffuseColor": [
-                    1.0,
-                    0.5882353,
-                    0.1843137,
+                    0.2914798,
+                    0.2018009,
+                    0.0562046,
                     1.0
                 ],
                 "ambientColor": [
@@ -2995,6 +2894,11 @@
             "link": {
                 "name": "texture_less_terrain",
                 "file": "assets\\my-models\\thematic_1.glb"
+            },
+            "pipeline": "77",
+            "Physical": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
             }
         },
         "286": {
@@ -3070,6 +2974,20 @@
                 "name": "trunk_copy",
                 "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
             }
+        },
+        "340": {
+            "link": {
+                "name": "pallette_material",
+                "file": "assets\\my-models\\thematic\\tematicka_loc_1_baked_material_t.glb"
+            },
+            "pipeline": "78"
+        },
+        "341": {
+            "link": {
+                "name": "terrain_material",
+                "file": "assets\\my-models\\thematic\\tematicka_loc_1_baked_material_t.glb"
+            },
+            "pipeline": "78"
         }
     },
     "shaders": {
@@ -3496,6 +3414,18 @@
                 "name": "texture_0",
                 "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
             }
+        },
+        "338": {
+            "link": {
+                "name": "texture_0",
+                "file": "assets\\my-models\\thematic\\tematicka_loc_1_baked_material_t.glb"
+            }
+        },
+        "339": {
+            "link": {
+                "name": "texture_1",
+                "file": "assets\\my-models\\thematic\\tematicka_loc_1_baked_material_t.glb"
+            }
         }
     },
     "images": {
@@ -3538,6 +3468,18 @@
                 "file": "assets\\my-models\\topo1_stromy_optimized_uncompressed.glb"
             },
             "compression": "uastc"
+        },
+        "336": {
+            "link": {
+                "name": "texture_atlas_fit_2",
+                "file": "assets\\my-models\\thematic\\tematicka_loc_1_baked_material_t.glb"
+            }
+        },
+        "337": {
+            "link": {
+                "name": "terrain_bake_2k",
+                "file": "assets\\my-models\\thematic\\tematicka_loc_1_baked_material_t.glb"
+            }
         }
     },
     "files": {
@@ -3575,6 +3517,10 @@
         },
         "333": {
             "fileName": "assets/my-models/topo1_stromy_optimized_uncompressed.glb",
+            "importerName": ""
+        },
+        "346": {
+            "fileName": "assets/my-models/thematic/tematicka_loc_1_baked_material_t.glb",
             "importerName": ""
         }
     },
